@@ -1,5 +1,6 @@
 def game():
     answer = input("Would you like to play the game?(y/n)")
+
     if answer.lower() == 'y':
         print("Welcome to the game")
         answer = input("You reach a crossroads, would you like to go left or right?").lower()
